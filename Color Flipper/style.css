@@ -1,0 +1,46 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+.green {
+  background-color: green;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 5px solid black;
+}
+.red {
+  background-color: red;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 5px solid black;
+}
+
+.blue {
+  background-color: blue;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 5px solid black;
+}
+.random {
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 5px solid black;
+}
+.container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h1 {
+  font-size: 80px;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: rgb(137, 122, 122);
+}
